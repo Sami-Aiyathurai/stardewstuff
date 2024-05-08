@@ -4,9 +4,9 @@
 function Header() {
 
     return(
-        <div className = 'header-footer'>
+        <div className = 'header'>
             <header>
-                <h1 className="header-text">Stardew Marriagables</h1>
+                <h1>Stardew Marriagables</h1>
             </header>
         </div>
 
