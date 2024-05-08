@@ -43,10 +43,15 @@ footer{
   background-color: #ffe0b0;
   border: 3px solid #804000;
   border-radius: 10px;
-  box-shadow: 5px 5px 5px;
+  box-shadow: 3px 3px 3px;
   padding: 20px;
   margin: 10px;
   text-align: center;
-  max-width: 250px;
+  max-width: 350px;
   display: inline-block;
+}
+
+.npc-display{
+  margin: 0;
+  padding: 2px;
 }
