@@ -4,9 +4,12 @@
 function Header() {
 
     return(
-        <header className='header-box'>
-            <h1>Stardew Marriagables</h1>
-        </header>
+        <div className = 'header-footer'>
+            <header>
+                <h1 className="header-text">Stardew Marriagables</h1>
+            </header>
+        </div>
+
     );
 
 }
