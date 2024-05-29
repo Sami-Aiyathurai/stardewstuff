@@ -1,8 +1,13 @@
 body {
+  background-image: url(assets/stardewvalleylogo.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   margin: 0%;
   background-color: rgb(255, 255, 255);
   position: relative;
-  color: #9b4f04;
+  font-family: sans-serif;
 }
 
 #root{
@@ -31,35 +36,65 @@ footer{
 
 .intro-box{
   background-color: #ffe0b0;
-  border: 5px solid #804000;
-  border-radius: 10px;
-  box-shadow: 5px 5px 5px;
+  border: 12px solid transparent;
+  border-image: url(assets/menu_border.png) 16 stretch;
+  border-radius: 12px;
   padding: 20px;
   margin: 10px;
   text-align: center;
+  color: #9b4f04;
 }
 
 .card{
-  background-color: #ffe0b0;
-  border: 3px solid #804000;
-  border-radius: 10px;
-  box-shadow: 3px 3px 3px;
-  padding: 20px;
+  background-color: rgba(172, 220, 240, 0.679);
+  border: 12px solid transparent;
+  border-image: url(assets/menu_border.png) 15 stretch;
+  border-radius: 12px;
   margin: 10px;
   text-align: center;
   max-width: 350px;
   display: inline-block;
 }
 
-.card:hover{
-  background-color: #8accdbc4;
-  border-radius: 25%;
-  border: 3px solid rgb(42, 92, 163);
-  color: white;
-  box-shadow: 5px 5px 5px;
+.npc-display{
+  margin: 3px;
 }
 
-.npc-display{
-  margin: 0;
+.title{
+  background-color: green;
+  color: white;
+  margin: 3px;
   padding: 2px;
+  font-weight: normal;
+}
+.photo-display{
+  margin: 10px;
+  font-weight: normal;
+}
+
+
+
+/* CSS */
+.button-33 {
+  background-color: green;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-33:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
 }
