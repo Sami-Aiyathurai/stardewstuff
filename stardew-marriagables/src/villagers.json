@@ -1,0 +1,46 @@
+[
+    {
+        "Name": "Wizard",
+        "Birthday": "Winter 17",
+        "Universal Loves Exceptions": " None",
+        "Universal Like Exceptions": "None",
+        "Personal Loves" : "Book of Mysteries, Purple Mushroom, Solar Essence, Super Cucumber, Void Essence",
+        "Lives" : "Cindersap Forest",
+        "Marriagable" : false ,
+        "Cooking Recipes" : 0
+    } ,
+
+    {
+        "Name": "Haley",
+        "Birthday": "Spring 14",
+        "Universal Loves Exceptions": "1",
+        "Universal Like Exceptions": "1 category",
+        "Personal Loves" : "Coconut, Fruit Salad, Pink Cake, Sunflower",
+        "Lives" : "Cindersap Forest",
+        "Marriagable" : true ,
+        "Cooking Recipes" : 0
+    } ,
+
+    {
+        "Name": "Krobus",
+        "Birthday": "Winter 1",
+        "Universal Loves Exceptions": "None",
+        "Universal Like Exceptions": "1 item and 1 category",
+        "Personal Loves" : "Diamond, Iridium Bar, Monster Compendium, Monster Musk, Pumpkin, Void Egg, Void Mayo, Wild Horseradish",
+        "Lives" : "Sewer",
+        "Marriagable" : true ,
+        "Cooking Recipes" : 1
+    } ,
+
+    {
+        "Name": "Caroline",
+        "Birthday": "Winter 7",
+        "Universal Loves Exceptions": " None",
+        "Universal Like Exceptions": "3 items",
+        "Personal Loves" : "Fish Taco, Green Tea, Summer Spangle, Tropical Curry",
+        "Lives" : "Pelican Twon",
+        "Marriagable" : false ,
+        "Cooking Recipes" : 2
+    } 
+
+]
