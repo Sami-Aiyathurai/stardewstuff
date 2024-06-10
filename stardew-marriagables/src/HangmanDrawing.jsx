@@ -7,7 +7,7 @@ const HEAD = (
         border: "10px solid black",
         position: "absolute",
         top: "50px",
-        right: "-30px",
+        right: "20px",
       }}
     />
   )
@@ -20,7 +20,7 @@ const HEAD = (
         background: "black",
         position: "absolute",
         top: "120px",
-        right: 0,
+        right: "50px",
       }}
     />
   )
@@ -33,7 +33,7 @@ const HEAD = (
         background: "black",
         position: "absolute",
         top: "150px",
-        right: "-100px",
+        right: "-50px",
         rotate: "-30deg",
         transformOrigin: "left bottom",
       }}
@@ -48,7 +48,7 @@ const HEAD = (
         background: "black",
         position: "absolute",
         top: "150px",
-        right: "10px",
+        right: "60px",
         rotate: "30deg",
         transformOrigin: "right bottom",
       }}
@@ -63,7 +63,7 @@ const HEAD = (
         background: "black",
         position: "absolute",
         top: "210px",
-        right: "-90px",
+        right: "-40px",
         rotate: "60deg",
         transformOrigin: "left bottom",
       }}
@@ -78,7 +78,7 @@ const HEAD = (
         background: "black",
         position: "absolute",
         top: "210px",
-        right: 0,
+        right: "50px",
         rotate: "-60deg",
         transformOrigin: "right bottom",
       }}
@@ -100,15 +100,15 @@ const HEAD = (
             background: "black",
             position: "absolute",
             top: 0,
-            right: 0,
+            right: 50,
           }}
         />
         <div
           style={{
             height: "10px",
-            width: "200px",
+            width: "150px",
             background: "black",
-            marginLeft: "120px",
+            marginLeft: "70px",
           }}
         />
         <div
@@ -116,10 +116,10 @@ const HEAD = (
             height: "400px",
             width: "10px",
             background: "black",
-            marginLeft: "120px",
+            marginLeft: "70px",
           }}
         />
-        <div style={{ height: "10px", width: "250px", background: "black" }} />
+        <div style={{ height: "10px", width: "200px", background: "black" }} />
       </div>
     )
 }

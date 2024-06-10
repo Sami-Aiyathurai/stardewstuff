@@ -124,3 +124,18 @@ footer{
   border-width: 4px 0 0;
   background: none;
 }
+
+.game-screen {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.hints-page {
+
+}
+
+.hangman {
+  
+}

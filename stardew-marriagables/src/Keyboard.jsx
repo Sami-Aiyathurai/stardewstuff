@@ -1,17 +1,13 @@
 
-import villagers from "./villagers.json";
 import { getImageUrl } from './utils.js';
 
-function Keyboard() {
+function Keyboard(props) {
     
-    const names = villagers.map(villager => {
-        return villager.Name;
-    })
 
     return(
         <div>
             {
-                names.map(npc => {
+                props.names.map(npc => {
                     return(
                         <div className="card">
                             <div>
