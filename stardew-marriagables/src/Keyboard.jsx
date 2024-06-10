@@ -17,8 +17,8 @@ function Keyboard() {
                             <div>
                                 <h1 className='photo-display'>{npc}</h1>
                                 <img className='photo-display' src= {getImageUrl(npc)} alt={npc}></img>
-                                 <button>Guess</button>
                             </div>
+                            <button className="button-70">Guess</button>
                          </div>
                     )
                 })
