@@ -137,5 +137,11 @@ footer{
 }
 
 .hangman {
-  
+  background-color: rgba(172, 220, 240, 0.679);
+  border: 12px solid transparent;
+  border-image: url(assets/menu_border.png) 15 stretch;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
