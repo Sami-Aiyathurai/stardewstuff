@@ -41,6 +41,115 @@
         "Lives" : "Pelican Twon",
         "Marriagable" : false ,
         "Cooking Recipes" : 2
+    } ,
+    {
+        "Name": "Abigail",
+        "Birthday": "Winter 17",
+        "Universal Loves Exceptions": " None",
+        "Universal Like Exceptions": "None",
+        "Personal Loves" : "Book of Mysteries, Purple Mushroom, Solar Essence, Super Cucumber, Void Essence",
+        "Lives" : "Cindersap Forest",
+        "Marriagable" : false ,
+        "Cooking Recipes" : 0
+    } ,
+    {
+        "Name": "Alex",
+        "Birthday": "Winter 17",
+        "Universal Loves Exceptions": " None",
+        "Universal Like Exceptions": "None",
+        "Personal Loves" : "Book of Mysteries, Purple Mushroom, Solar Essence, Super Cucumber, Void Essence",
+        "Lives" : "Cindersap Forest",
+        "Marriagable" : false ,
+        "Cooking Recipes" : 0
+    } ,
+    {
+        "Name": "Elliott",
+        "Birthday": "Winter 17",
+        "Universal Loves Exceptions": " None",
+        "Universal Like Exceptions": "None",
+        "Personal Loves" : "Book of Mysteries, Purple Mushroom, Solar Essence, Super Cucumber, Void Essence",
+        "Lives" : "Cindersap Forest",
+        "Marriagable" : false ,
+        "Cooking Recipes" : 0
+    } ,
+    {
+        "Name": "Emily",
+        "Birthday": "Winter 17",
+        "Universal Loves Exceptions": " None",
+        "Universal Like Exceptions": "None",
+        "Personal Loves" : "Book of Mysteries, Purple Mushroom, Solar Essence, Super Cucumber, Void Essence",
+        "Lives" : "Cindersap Forest",
+        "Marriagable" : false ,
+        "Cooking Recipes" : 0
+    } ,
+    {
+        "Name": "Harvey",
+        "Birthday": "Winter 17",
+        "Universal Loves Exceptions": " None",
+        "Universal Like Exceptions": "None",
+        "Personal Loves" : "Book of Mysteries, Purple Mushroom, Solar Essence, Super Cucumber, Void Essence",
+        "Lives" : "Cindersap Forest",
+        "Marriagable" : false ,
+        "Cooking Recipes" : 0
+    } ,
+    {
+        "Name": "Leah",
+        "Birthday": "Winter 17",
+        "Universal Loves Exceptions": " None",
+        "Universal Like Exceptions": "None",
+        "Personal Loves" : "Book of Mysteries, Purple Mushroom, Solar Essence, Super Cucumber, Void Essence",
+        "Lives" : "Cindersap Forest",
+        "Marriagable" : false ,
+        "Cooking Recipes" : 0
+    } ,
+    {
+        "Name": "Maru",
+        "Birthday": "Winter 17",
+        "Universal Loves Exceptions": " None",
+        "Universal Like Exceptions": "None",
+        "Personal Loves" : "Book of Mysteries, Purple Mushroom, Solar Essence, Super Cucumber, Void Essence",
+        "Lives" : "Cindersap Forest",
+        "Marriagable" : false ,
+        "Cooking Recipes" : 0
+    } ,
+    {
+        "Name": "Penny",
+        "Birthday": "Winter 17",
+        "Universal Loves Exceptions": " None",
+        "Universal Like Exceptions": "None",
+        "Personal Loves" : "Book of Mysteries, Purple Mushroom, Solar Essence, Super Cucumber, Void Essence",
+        "Lives" : "Cindersap Forest",
+        "Marriagable" : false ,
+        "Cooking Recipes" : 0
+    } ,
+    {
+        "Name": "Sam",
+        "Birthday": "Winter 17",
+        "Universal Loves Exceptions": " None",
+        "Universal Like Exceptions": "None",
+        "Personal Loves" : "Book of Mysteries, Purple Mushroom, Solar Essence, Super Cucumber, Void Essence",
+        "Lives" : "Cindersap Forest",
+        "Marriagable" : false ,
+        "Cooking Recipes" : 0
+    } ,
+    {
+        "Name": "Sebastian",
+        "Birthday": "Winter 17",
+        "Universal Loves Exceptions": " None",
+        "Universal Like Exceptions": "None",
+        "Personal Loves" : "Book of Mysteries, Purple Mushroom, Solar Essence, Super Cucumber, Void Essence",
+        "Lives" : "Cindersap Forest",
+        "Marriagable" : false ,
+        "Cooking Recipes" : 0
+    } ,
+    {
+        "Name": "Shane",
+        "Birthday": "Spring 20",
+        "Universal Loves Exceptions": " None",
+        "Universal Like Exceptions": "One category",
+        "Personal Loves" : "Beer, Hot Pepper, Pepper Poppers, Pizza",
+        "Lives" : "Cindersap Forest",
+        "Marriagable" : true ,
+        "Cooking Recipes" : 0
     } 
-
 ]

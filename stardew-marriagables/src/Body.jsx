@@ -17,14 +17,18 @@ function Body(){
     })
 
     const [guessedNpcs, setGuessedNpcs] = useState([]);
+    const [isWinner, setIsWinner] = useState(false);
+    const isLoser = (guessedNpcs.length >= 6);
 
     const addGuessNPC = useCallback(
         (npcName) => {
             if (guessedNpcs.includes(npcName))
                 return
-            else if(npcName == npcToGuess.Name)
+            else if(npcName == npcToGuess.Name) {
+                setIsWinner(true);
                 return
-    
+            }
+
             setGuessedNpcs(currentNPCS => [... currentNPCS, npcName])
         }, [guessedNpcs]
     )
@@ -34,12 +38,12 @@ function Body(){
     return(
         <div>
             
-            <Intro></Intro>
+            <Intro isWinner={isWinner} isLoser={isLoser}></Intro>
             <div className='game-screen'>
                 <HangmanDrawingPlaceHolder numGuesses = {guessedNpcs.length}></HangmanDrawingPlaceHolder>
                 <Hints></Hints>
             </div>
-            <Keyboard names={names} inactive={guessedNpcs} addGuess={addGuessNPC}></Keyboard>
+            <Keyboard disable={isLoser} names={names} inactive={guessedNpcs} addGuess={addGuessNPC}></Keyboard>
         </div>
     )
 }

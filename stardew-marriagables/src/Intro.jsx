@@ -1,16 +1,16 @@
 
 
-function Intro() {
+function Intro(props) {
     return(
         <div className="intro-box">
-            <h2>Welcome!</h2>
+            <h2>
+                {props.isWinner && "Congrats, You Won!"}
+                {props.isLoser && "Sorry, Try Again!"}
+                {(!(props.isWinner || props.isLoser)) && "Welcome"}
+            </h2>
             <p>
-                This is app is for the purpose for track the frequency that the marriagable NPCs in Stardew Valley are actually married. 
-                I am counting Krobus as a marriagable along with all of the bachelors and bachelorettes as platonic marriages are just as valid. 
-                I have included important friendship information for each npc like non-universal loves and exceptions to the universal loves and like. 
-                I also included the movies and treats the npcs love. 
-                Please increase the counter for each marriageable that you have actually invited to the farm.
-                Happy Romancing!
+                Welcome to a miz between guess who and hangman. 
+                Your job is to guess the stardew valley giftable NPC. You have six guesses and for every incorrect guess you will, eventually, be given a clue with information relevent to gifting this npc. Refresh to attempt again 
             </p>
         </div>
     )
