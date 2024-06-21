@@ -1,10 +1,18 @@
-import { getImageUrl } from './utils.js';
+import HintRow from "./HintRow";
 
-function Hints() {
-        const npc = "Haley";
+function Hints(props) {
+        const npc = props.toGuess.Hints;
+        const name = props.toGuess.Name;
+        console.log(npc)
+
+        const hintTitle = ["Livable", "Gifts", "Movies", "Birthday"]
         return(
-            <div className="hints=page">
-                <img src= './src/assets/hint.png' alt="hangman photo"></img>
+            <div className="hints-page">
+                {name}
+                <ul>
+                    {npc.map((hint, index) => <li key={index}><HintRow hint={hint}></HintRow></li>)}
+                </ul>
+                
             </div>
         )
 

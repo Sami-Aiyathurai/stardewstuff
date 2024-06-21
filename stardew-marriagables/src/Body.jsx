@@ -3,7 +3,7 @@ import Keyboard from './Keyboard.jsx'
 import Hints from './Hints.jsx'
 import { useState } from 'react'
 import { useCallback } from 'react'
-import villagers from "./villagers.json";
+import villagers from "./villagersPlaceholder.json";
 import HangmanDrawingPlaceHolder from './HangmanDrawingPlaceHolder.jsx'
 
 function Body(){
@@ -33,15 +33,13 @@ function Body(){
         }, [guessedNpcs]
     )
 
-    console.log(npcToGuess.Name)
-    console.log(guessedNpcs)
     return(
         <div>
             
             <Intro isWinner={isWinner} isLoser={isLoser}></Intro>
             <div className='game-screen'>
                 <HangmanDrawingPlaceHolder numGuesses = {guessedNpcs.length}></HangmanDrawingPlaceHolder>
-                <Hints></Hints>
+                <Hints numGuesses = {guessedNpcs.length} toGuess = {npcToGuess}></Hints>
             </div>
             <Keyboard disable={isLoser} names={names} inactive={guessedNpcs} addGuess={addGuessNPC}></Keyboard>
         </div>

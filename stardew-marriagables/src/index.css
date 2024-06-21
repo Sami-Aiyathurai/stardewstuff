@@ -145,7 +145,15 @@ footer{
 }
 
 .hints-page {
-
+  background-color: #ffe0b0;
+  color: #9b4f04;
+  border: 12px solid transparent;
+  border-image: url(assets/menu_border.png) 15 stretch;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  border-radius: 12px;
 }
 
 .hangman {
@@ -156,4 +164,5 @@ footer{
   padding-right: 10%;
   padding-top: 3%;
   padding-bottom: 3%;
+  border-radius: 12px;
 }
