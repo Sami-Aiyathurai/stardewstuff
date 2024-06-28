@@ -3,7 +3,7 @@ import Keyboard from './Keyboard.jsx'
 import Hints from './Hints.jsx'
 import { useState } from 'react'
 import { useCallback } from 'react'
-import villagers from "./villagersPlaceholder.json";
+import villagers from "./villagers.json";
 import HangmanDrawingPlaceHolder from './HangmanDrawingPlaceHolder.jsx'
 
 function Body(){
@@ -19,6 +19,19 @@ function Body(){
     const [guessedNpcs, setGuessedNpcs] = useState([]);
     const [isWinner, setIsWinner] = useState(false);
     const isLoser = (guessedNpcs.length >= 6);
+    const [hints, setHints] = useState([]);
+
+    function updateHints() {
+        const numHints = guessedNpcs.length;
+        const tempHint = npcToGuess.Hints[numHints];
+        console.log("hint: " + tempHint);
+        const temp = randomHint(tempHint);
+        setHints(h => [...h, temp]);
+    }
+
+    function randomHint(hints) {
+        return hints[Math.floor(Math.random() * hints.length)]
+    }
 
     const addGuessNPC = useCallback(
         (npcName) => {
@@ -30,6 +43,7 @@ function Body(){
             }
 
             setGuessedNpcs(currentNPCS => [... currentNPCS, npcName])
+            updateHints()
         }, [guessedNpcs]
     )
 
@@ -39,9 +53,9 @@ function Body(){
             <Intro isWinner={isWinner} isLoser={isLoser}></Intro>
             <div className='game-screen'>
                 <HangmanDrawingPlaceHolder numGuesses = {guessedNpcs.length}></HangmanDrawingPlaceHolder>
-                <Hints numGuesses = {guessedNpcs.length} toGuess = {npcToGuess}></Hints>
+                <Hints toGuess = {npcToGuess} hintList = {hints}></Hints>
             </div>
-            <Keyboard disable={isLoser} names={names} inactive={guessedNpcs} addGuess={addGuessNPC}></Keyboard>
+            <Keyboard disable={isLoser || isWinner} names={names} inactive={guessedNpcs} addGuess={addGuessNPC}></Keyboard>
         </div>
     )
 }

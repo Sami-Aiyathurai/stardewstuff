@@ -1,166 +1,196 @@
 [
     {
         "Name": "Wizard",
-        "Hints": {  "Livable": false,
-                    "Hates": ["Universal"],
-                    "Movies": ["Mysterium"],
-                    "Gifts": ["Book of Mysteries", "Purple Mushroom", "Solar Essence", "Super Cucumber", "Void Essence"],
-                    "Lives": "Cindersap Forest",
-                    "ULExceptions": [],
-                    "Birthday": "Winter 17"}
+        "Hints": [
+            ["false"],
+            ["Universal"],
+            ["Mysterium"],
+            ["Book of Mysteries", "Purple Mushroom", "Solar Essence", "Super Cucumber", "Void Essence"],
+            ["Cindersap Forest"],
+            [],
+            ["Winter 17"]
+        ]
     } ,
 
     {
         "Name": "Krobus",
-        "Hints" : {"Livable": true,
-        "Hates": ["Universal"],
-        "Movies": [],
-        "Gifts": ["Diamond", "Iridium Bar", "Monster Compendium", "Monster Musk", "Pumpkin", "Void Egg", "Void Mayonaise", "Wild Horseradish"],
-        "Lives": "Sewer",
-        "ULExceptions": [],
-        "Birthday": "Winter 1"}
+        "Hints" : [
+            ["true"],
+            ["Universal"],
+            [],
+            ["Diamond", "Iridium Bar", "Monster Compendium", "Monster Musk", "Pumpkin", "Void Egg", "Void Mayonaise", "Wild Horseradish"],
+            ["Sewer"],
+            [],
+            ["Winter 1"]
+        ]
     } ,
 
     {
         "Name": "Caroline",
-        "Hints": {"Livable": false,
-        "Hates": ["Universal", "Quartz", "Salmonberry"],
-        "Movies": ["Journey of the Prairie King: The Motion Picture", "The Brave Little Sapling"],
-        "Gifts": ["Fish Taco", "Green Tea", "Summer Spangle", "Tropical Curry"],
-        "Lives": "Pelican Town",
-        "ULExceptions": [],
-        "Birthday": "Winter 7"}
+        "Hints": [
+            ["false"],
+            ["Universal", "Quartz", "Salmonberry"],
+            ["Journey of the Prairie King: The Motion Picture", "The Brave Little Sapling"],
+            ["Fish Taco", "Green Tea", "Summer Spangle", "Tropical Curry"],
+            ["Pelican Town"],
+            [],
+            ["Winter 7"]
+        ]
     } ,
     
     {
         "Name": "Abigail",
-        "Hints": {"Livable": true,
-        "Hates": ["Universal", "Clay", "Holly"],
-        "Movies": ["Mysterium", "It Howls in the Rain"],
-        "Gifts": ["Amethyst", "Banana Pudding", "Blackberry Cobbler", "Chocolate Cake", "Monster Compendium", "Pufferfish", "Pumpkin", "Spicy Eel"],
-        "Lives": "Pelican Town",
-        "ULExceptions": [],
-        "Birthday": "Fall 13"}
+        "Hints": [
+            ["true"],
+            ["Universal", "Clay", "Holly"],
+            ["Mysterium", "It Howls in the Rain"],
+            ["Amethyst", "Banana Pudding", "Blackberry Cobbler", "Chocolate Cake", "Monster Compendium", "Pufferfish", "Pumpkin", "Spicy Eel"],
+            ["Pelican Town"],
+            [],
+            ["Fall 13"]
+        ]
     } ,
 
     {
         "Name": "Alex",
-        "Hints": {"Livable": true,
-        "Hates": ["Universal", "Holly", "Quartz"],
-        "Movies": ["It Howls in the Rain", "Wumbus"],
-        "Gifts": ["Complete Breakfast", "Jack Be Nimble, Jack Be Thick", "Salmon Dinner"],
-        "Lives": "Pelican Town",
-        "ULExceptions": [],
-        "Birthday": "Summer 13"}
+        "Hints": [
+            ["true"],
+            ["Universal", "Holly", "Quartz"],
+            ["It Howls in the Rain", "Wumbus"],
+            ["Complete Breakfast", "Jack Be Nimble, Jack Be Thick", "Salmon Dinner"],
+            ["Pelican Town"],
+            [],
+            ["Summer 13"]
+        ]
     } ,
 
     {
         "Name": "Elliott",
-        "Hints":{"Livable": true,
-        "Hates": ["Universal", "Amaranth", "Quartz", "Salmonberry", "Sea Cucumber", "Super Cucumber"],
-        "Movies": ["Mysterium"],
-        "Gifts": ["Crab Cakes", "Duck Feather", "Lobster", "Pomegranate", "Squid Ink", "Tom Kha Soup"],
-        "Lives": "The Beach",
-        "ULExceptions": [],
-        "Birthday": "Fall 5"}
+        "Hints":[
+            ["true"],
+            ["Universal", "Amaranth", "Quartz", "Salmonberry", "Sea Cucumber", "Super Cucumber"],
+            ["Mysterium"],
+            ["Crab Cakes", "Duck Feather", "Lobster", "Pomegranate", "Squid Ink", "Tom Kha Soup"],
+            ["The Beach"],
+            [],
+            ["Fall 5"]
+        ]
     } ,
 
     {
         "Name": "Emily",
-        "Hints":{"Livable": true,
-        "Hates": ["Universal", "Fish Taco", "Maki Roll", "Holly", "Salmon Dinner", "Sashimi"],
-        "Movies": ["The Miracle at Coldstar Ranch"],
-        "Gifts": ["Amethyst", "Aquamarine", "Cloth", "Emerald", "Jade", "Parrot Egg", "Ruby", "Survival Burger", "Topaz", "Wool"],
-        "Lives": "Pelican Town",
-        "ULExceptions": [],
-        "Birthday": "Spring 27"}
+        "Hints":[
+            ["true"],
+            ["Universal", "Fish Taco", "Maki Roll", "Holly", "Salmon Dinner", "Sashimi"],
+            ["The Miracle at Coldstar Ranch"],
+            ["Amethyst", "Aquamarine", "Cloth", "Emerald", "Jade", "Parrot Egg", "Ruby", "Survival Burger", "Topaz", "Wool"],
+            ["Pelican Town"],
+            [],
+            ["Spring 27"]
+        ]
     } ,
 
     {
         "Name": "Haley",
-        "Hints":{"Livable": true,
-        "Hates": ["Universal", "Clay", "Prismatic Shard", "Wild Horseradish"],
-        "Movies": [],
-        "Gifts": ["Coconut", "Fruit Salad", "Pink Cake", "Sunflower"],
-        "Lives": "Pelican Town",
-        "ULExceptions": ["Prismatic Shard"],
-        "Birthday": "Spring 14"}
+        "Hints":[
+            ["true"],
+            ["Universal", "Clay", "Prismatic Shard", "Wild Horseradish"],
+            [],
+            ["Coconut", "Fruit Salad", "Pink Cake", "Sunflower"],
+            ["Pelican Town"],
+            ["Prismatic Shard"],
+            ["Spring 14"]
+        ]
     } ,
     
     {
         "Name": "Harvey",
-        "Hints": {"Livable": true,
-        "Hates": ["Universal", "Coral", "Nautilus Shell", "Rainbow Shell", "Salmonberry", "Spice Berry"],
-        "Movies": ["The Miracle at Coldstar Ranch", "The Zuzu City Express"],
-        "Gifts": ["Coffee", "Pickles", "Super Meal", "Truffle Oil", "Wine"],
-        "Lives": "Pelican Town",
-        "ULExceptions": [],
-        "Birthday": "Winter 14"}
+        "Hints": [
+            ["true"],
+            ["Universal", "Coral", "Nautilus Shell", "Rainbow Shell", "Salmonberry", "Spice Berry"],
+            ["The Miracle at Coldstar Ranch", "The Zuzu City Express"],
+            ["Coffee", "Pickles", "Super Meal", "Truffle Oil", "Wine"],
+            ["Pelican Town"],
+            [],
+            ["Winter 14"]
+        ]
     } ,
 
     {
         "Name": "Leah",
-        "Hints": {"Livable": true,
-        "Hates": ["Universal", "Bread", "Hashbrowns", "Pancakes", "Pizza", "Void Egg"],
-        "Movies": ["Mysterium"],
-        "Gifts": ["Goat Cheese", "Poppyseed Muffin", "Salad", "Stir Fry", "Truffle", "Vegetable Medley", "Wine"],
-        "Lives": "Cindersap Forest",
-        "ULExceptions": [],
-        "Birthday": "Winter 23"}
+        "Hints": [
+            ["true"],
+            ["Universal", "Bread", "Hashbrowns", "Pancakes", "Pizza", "Void Egg"],
+            ["Mysterium"],
+            ["Goat Cheese", "Poppyseed Muffin", "Salad", "Stir Fry", "Truffle", "Vegetable Medley", "Wine"],
+            ["Cindersap Forest"],
+            [],
+            ["Winter 23"]
+        ]
     } ,
 
     {
         "Name": "Maru",
-        "Hints": {"Livable": true,
-        "Hates": ["Universal", "Holly", "Honey", "Pickles", "Snow Yam", "Truffle"],
-        "Movies": ["Natural Wonders: Exploring Our Vibrant World", "Wumbus"],
-        "Gifts": ["Battery Pack", "Cauliflower", "Cheese Cauliflower", "Diamond", "Dwarf Gadget", "Gold Bar", "Iridium Bar", "Miner's Treat", "Pepper Poppers", "Radioactive Bar", "Rhubarb Pie", "Strawberry"],
-        "Lives": "The Mountain",
-        "ULExceptions": [],
-        "Birthday": "Summer 10"}
+        "Hints": [
+            ["true"],
+            ["Universal", "Holly", "Honey", "Pickles", "Snow Yam", "Truffle"],
+            ["Natural Wonders: Exploring Our Vibrant World", "Wumbus"],
+            ["Battery Pack", "Cauliflower", "Cheese Cauliflower", "Diamond", "Dwarf Gadget", "Gold Bar", "Iridium Bar", "Miner's Treat", "Pepper Poppers", "Radioactive Bar", "Rhubarb Pie", "Strawberry"],
+            ["The Mountain"],
+            [],
+            ["Summer 10"]
+        ]
     } ,
 
     {
         "Name": "Penny",
-        "Hints": {"Livable": true,
-        "Hates": ["Universal", "Beer", "Grape", "Holly", "Hops", "Mead", "Pale Ale", "Pina Colada", "Rabbit's Foot", "Wine"],
-        "Movies": ["The Brave Little Sapling"],
-        "Gifts": ["Diamond", "Emerald", "Melon", "Poppy", "Poppyseed Muffin", "Red Plate", "Roots Platter", "Sandfish", "Tom Kha Soup"],
-        "Lives": "Pelican Town",
-        "ULExceptions": ["Rabbit's Foot"],
-        "Birthday": "Fall 2"}
+        "Hints": [
+            ["true"],
+            ["Universal", "Beer", "Grape", "Holly", "Hops", "Mead", "Pale Ale", "Pina Colada", "Rabbit's Foot", "Wine"],
+            ["The Brave Little Sapling"],
+            ["Diamond", "Emerald", "Melon", "Poppy", "Poppyseed Muffin", "Red Plate", "Roots Platter", "Sandfish", "Tom Kha Soup"],
+            ["Pelican Town"],
+            ["Rabbit's Foot"],
+            ["Fall 2"]
+        ]
     } ,
 
     {
         "Name": "Sam",
-        "Hints": {"Livable": true,
-        "Hates": ["Universal", "Bone Fragment", "Cinder Shard", "Coal", "Copper Bar", "Duck Mayonaise", "Gold Bar", "Gold Ore", "Iridium Bar", "Iridium Ore", "Iron Bar", "Mayonaise", "Pickles", "Refined Quartz"],
-        "Movies": ["Wumbus"],
-        "Gifts": ["Cactus Fruit", "Maple Bar", "Pizza", "Tigerseye"],
-        "Lives": "Pelican Town",
-        "ULExceptions": [],
-        "Birthday": "Summer 17"}
+        "Hints": [
+            ["true"],
+            ["Universal", "Bone Fragment", "Cinder Shard", "Coal", "Copper Bar", "Duck Mayonaise", "Gold Bar", "Gold Ore", "Iridium Bar", "Iridium Ore", "Iron Bar", "Mayonaise", "Pickles", "Refined Quartz"],
+            ["Wumbus"],
+            ["Cactus Fruit", "Maple Bar", "Pizza", "Tigerseye"],
+            ["Pelican Town"],
+            [],
+            ["Summer 17"]
+        ]
     } ,
 
     {
         "Name": "Sebastian",
-        "Hints": {"Livable": true,
-        "Hates": ["Universal", "Clay", "Complete Breakfast", "Farmer's Lunch", "Omelet", "Pina Colada"],
-        "Movies": ["It Howls in the Rain", "Mysterium"],
-        "Gifts": ["Frog Eye", "Frozen Tear", "Obsidian", "Pumpkin Soup", "Sashimi", "Void Egg"],
-        "Lives": "The Mountain",
-        "ULExceptions": [],
-        "Birthday": "Winter 10"}
+        "Hints": [
+            ["true"],
+            ["Universal", "Clay", "Complete Breakfast", "Farmer's Lunch", "Omelet", "Pina Colada"],
+            ["It Howls in the Rain", "Mysterium"],
+            ["Frog Eye", "Frozen Tear", "Obsidian", "Pumpkin Soup", "Sashimi", "Void Egg"],
+            ["The Mountain"],
+            [],
+            ["Winter 10"]
+        ]
     } ,
 
     {
         "Name": "Shane",
-        "Hints":{"Livable": true,
-        "Hates": ["Universal", "Pickles", "Quartz"],
-        "Movies": ["It Howls in the Rain", "Wumbus"],
-        "Gifts": ["Beer", "Hot Pepper", "Pepper Poppers", "Pizza"],
-        "Lives": "Cindersap Forest",
-        "ULExceptions": [],
-        "Birthday": "Spring 20"}
+        "Hints":[
+            ["true"],
+            ["Universal", "Pickles", "Quartz"],
+            ["It Howls in the Rain", "Wumbus"],
+            ["Beer", "Hot Pepper", "Pepper Poppers", "Pizza"],
+            ["Cindersap Forest"],
+            [],
+            ["Spring 20"]
+        ]
     } 
 ]

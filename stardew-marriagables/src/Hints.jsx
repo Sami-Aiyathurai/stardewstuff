@@ -1,16 +1,16 @@
-import HintRow from "./HintRow";
+
 
 function Hints(props) {
-        const npc = props.toGuess.Hints;
         const name = props.toGuess.Name;
-        console.log(npc)
+        const hints = props.hintList;
+        
+        const hintPrompt = ["livable","hates", "movies", "gifts","lives", "universal loves exceptions", "birthday"]
 
-        const hintTitle = ["Livable", "Gifts", "Movies", "Birthday"]
         return(
+
             <div className="hints-page">
-                {name}
                 <ul>
-                    {npc.map((hint, index) => <li key={index}><HintRow hint={hint}></HintRow></li>)}
+                    {hints.map((hint, index) => <li key={index}> {hintPrompt[index]}: {hint}</li>)}    
                 </ul>
                 
             </div>

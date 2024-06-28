@@ -1,15 +1,20 @@
 [
     {
         "Name": "Wizard",
-        "Hints": [
-            ["false"], ["Mysterium"], ["Book of Mysteries, Purple Mushroom, Solar Essence, Super Cucumber, Void Essence"], ["Winter 17"]
+        "Hints": [["false"], 
+        ["Mysterium"], 
+        ["Book of Mysteries", "Purple Mushroom", "Solar Essence", "Super Cucumber", "Void Essence"], 
+        ["Winter 17"]
         ]      
     } ,
 
     {
         "Name": "Krobus",
         "Hints" : [
-            ["true"], ["NA"], ["Diamond, Iridium Bar, Monster Compendium, Monster Musk, Pumpkin, Void Egg Void Mayonaise Wild Horseradish"],["Winter 1"]
+            ["true"], 
+            ["NA"], 
+            ["Diamond", "Iridium Bar", "Monster Compendium", "Monster Musk", "Pumpkin", "Void Egg", "Void Mayonaise", "Wild Horseradish"],
+            ["Winter 1"]
         ]
         
     } ,
@@ -17,16 +22,19 @@
     {
         "Name": "Caroline",
         "Hints": [
-            ["false"],["Journey of the Prairie King: The Motion Picture, The Brave Little Sapling"],["Fish Taco", "Green Tea", "Summer Spangle", "Tropical Curry"],["Winter 7"]
+            ["false"],
+            ["Journey of the Prairie King: The Motion Picture", "The Brave Little Sapling"],
+            ["Fish Taco", "Green Tea", "Summer Spangle", "Tropical Curry"],
+            ["Winter 7"]
         ]
     } ,
     
     {
         "Name": "Haley",
         "Hints":[
-            ["true"] ,
+            ["true"],
             ["NA"],
-            ["Coconut, Fruit Salad, Pink Cake, Sunflower"],
+            ["Coconut", "Fruit Salad", "Pink Cake", "Sunflower"],
             ["Spring 14"]
     ]
     } 
