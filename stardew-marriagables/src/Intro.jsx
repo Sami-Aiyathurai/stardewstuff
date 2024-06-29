@@ -9,8 +9,9 @@ function Intro(props) {
                 {(!(props.isWinner || props.isLoser)) && "Welcome"}
             </h2>
             <p>
-                Welcome to a miz between guess who and hangman. 
-                Your job is to guess the stardew valley giftable NPC. You have six guesses and for every incorrect guess you will, eventually, be given a clue with information relevent to gifting this npc. Refresh to attempt again 
+                Welcome to a mix between guess who and hangman for stardew NPCs. 
+                You have six guesses and for every incorrect guess you will be given a clue with information relevent to gifting this npc. You can refresh to restart(with a different npc) or to simply try again. Additionally, all the bachelors/bachelorettes are "livable" and Krobus counts as "livable."
+                Good Luck!. 
             </p>
         </div>
     )

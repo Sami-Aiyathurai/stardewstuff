@@ -1,4 +1,4 @@
-
+import HintRow from "./HintRow";
 
 function Hints(props) {
         const name = props.toGuess.Name;
@@ -9,8 +9,11 @@ function Hints(props) {
         return(
 
             <div className="hints-page">
+                <h1 className="hint-title">
+                    This villager....
+                </h1>
                 <ul>
-                    {hints.map((hint, index) => <li key={index}> {hintPrompt[index]}: {hint}</li>)}    
+                    {hints.map((hint, index) => <li key={index}><HintRow i={index} hint={hint}></HintRow> </li>)}    
                 </ul>
                 
             </div>

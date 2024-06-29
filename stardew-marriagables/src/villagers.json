@@ -2,7 +2,7 @@
     {
         "Name": "Wizard",
         "Hints": [
-            ["false"],
+            ["not livable"],
             ["Universal"],
             ["Mysterium"],
             ["Book of Mysteries", "Purple Mushroom", "Solar Essence", "Super Cucumber", "Void Essence"],
@@ -15,7 +15,7 @@
     {
         "Name": "Krobus",
         "Hints" : [
-            ["true"],
+            ["livable"],
             ["Universal"],
             [],
             ["Diamond", "Iridium Bar", "Monster Compendium", "Monster Musk", "Pumpkin", "Void Egg", "Void Mayonaise", "Wild Horseradish"],
@@ -28,7 +28,7 @@
     {
         "Name": "Caroline",
         "Hints": [
-            ["false"],
+            ["not livable"],
             ["Universal", "Quartz", "Salmonberry"],
             ["Journey of the Prairie King: The Motion Picture", "The Brave Little Sapling"],
             ["Fish Taco", "Green Tea", "Summer Spangle", "Tropical Curry"],
@@ -41,7 +41,7 @@
     {
         "Name": "Abigail",
         "Hints": [
-            ["true"],
+            ["livable"],
             ["Universal", "Clay", "Holly"],
             ["Mysterium", "It Howls in the Rain"],
             ["Amethyst", "Banana Pudding", "Blackberry Cobbler", "Chocolate Cake", "Monster Compendium", "Pufferfish", "Pumpkin", "Spicy Eel"],
@@ -54,7 +54,7 @@
     {
         "Name": "Alex",
         "Hints": [
-            ["true"],
+            ["livable"],
             ["Universal", "Holly", "Quartz"],
             ["It Howls in the Rain", "Wumbus"],
             ["Complete Breakfast", "Jack Be Nimble, Jack Be Thick", "Salmon Dinner"],
@@ -67,7 +67,7 @@
     {
         "Name": "Elliott",
         "Hints":[
-            ["true"],
+            ["livable"],
             ["Universal", "Amaranth", "Quartz", "Salmonberry", "Sea Cucumber", "Super Cucumber"],
             ["Mysterium"],
             ["Crab Cakes", "Duck Feather", "Lobster", "Pomegranate", "Squid Ink", "Tom Kha Soup"],
@@ -80,7 +80,7 @@
     {
         "Name": "Emily",
         "Hints":[
-            ["true"],
+            ["livable"],
             ["Universal", "Fish Taco", "Maki Roll", "Holly", "Salmon Dinner", "Sashimi"],
             ["The Miracle at Coldstar Ranch"],
             ["Amethyst", "Aquamarine", "Cloth", "Emerald", "Jade", "Parrot Egg", "Ruby", "Survival Burger", "Topaz", "Wool"],
@@ -93,7 +93,7 @@
     {
         "Name": "Haley",
         "Hints":[
-            ["true"],
+            ["livable"],
             ["Universal", "Clay", "Prismatic Shard", "Wild Horseradish"],
             [],
             ["Coconut", "Fruit Salad", "Pink Cake", "Sunflower"],
@@ -106,7 +106,7 @@
     {
         "Name": "Harvey",
         "Hints": [
-            ["true"],
+            ["livable"],
             ["Universal", "Coral", "Nautilus Shell", "Rainbow Shell", "Salmonberry", "Spice Berry"],
             ["The Miracle at Coldstar Ranch", "The Zuzu City Express"],
             ["Coffee", "Pickles", "Super Meal", "Truffle Oil", "Wine"],
@@ -119,7 +119,7 @@
     {
         "Name": "Leah",
         "Hints": [
-            ["true"],
+            ["livable"],
             ["Universal", "Bread", "Hashbrowns", "Pancakes", "Pizza", "Void Egg"],
             ["Mysterium"],
             ["Goat Cheese", "Poppyseed Muffin", "Salad", "Stir Fry", "Truffle", "Vegetable Medley", "Wine"],
@@ -132,7 +132,7 @@
     {
         "Name": "Maru",
         "Hints": [
-            ["true"],
+            ["livable"],
             ["Universal", "Holly", "Honey", "Pickles", "Snow Yam", "Truffle"],
             ["Natural Wonders: Exploring Our Vibrant World", "Wumbus"],
             ["Battery Pack", "Cauliflower", "Cheese Cauliflower", "Diamond", "Dwarf Gadget", "Gold Bar", "Iridium Bar", "Miner's Treat", "Pepper Poppers", "Radioactive Bar", "Rhubarb Pie", "Strawberry"],
@@ -145,7 +145,7 @@
     {
         "Name": "Penny",
         "Hints": [
-            ["true"],
+            ["livable"],
             ["Universal", "Beer", "Grape", "Holly", "Hops", "Mead", "Pale Ale", "Pina Colada", "Rabbit's Foot", "Wine"],
             ["The Brave Little Sapling"],
             ["Diamond", "Emerald", "Melon", "Poppy", "Poppyseed Muffin", "Red Plate", "Roots Platter", "Sandfish", "Tom Kha Soup"],
@@ -158,7 +158,7 @@
     {
         "Name": "Sam",
         "Hints": [
-            ["true"],
+            ["livable"],
             ["Universal", "Bone Fragment", "Cinder Shard", "Coal", "Copper Bar", "Duck Mayonaise", "Gold Bar", "Gold Ore", "Iridium Bar", "Iridium Ore", "Iron Bar", "Mayonaise", "Pickles", "Refined Quartz"],
             ["Wumbus"],
             ["Cactus Fruit", "Maple Bar", "Pizza", "Tigerseye"],
@@ -171,7 +171,7 @@
     {
         "Name": "Sebastian",
         "Hints": [
-            ["true"],
+            ["livable"],
             ["Universal", "Clay", "Complete Breakfast", "Farmer's Lunch", "Omelet", "Pina Colada"],
             ["It Howls in the Rain", "Mysterium"],
             ["Frog Eye", "Frozen Tear", "Obsidian", "Pumpkin Soup", "Sashimi", "Void Egg"],
@@ -184,7 +184,7 @@
     {
         "Name": "Shane",
         "Hints":[
-            ["true"],
+            ["livable"],
             ["Universal", "Pickles", "Quartz"],
             ["It Howls in the Rain", "Wumbus"],
             ["Beer", "Hot Pepper", "Pepper Poppers", "Pizza"],

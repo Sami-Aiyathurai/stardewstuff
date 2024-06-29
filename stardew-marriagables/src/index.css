@@ -145,16 +145,40 @@ footer{
 }
 
 .hints-page {
-  background-color: #ffe0b0;
-  color: #9b4f04;
+  background-color: #000b2978;
+  color: #ffffff;
   border: 12px solid transparent;
   border-image: url(assets/menu_border.png) 15 stretch;
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-top: 3%;
-  padding-bottom: 3%;
+  padding: 1%;
   border-radius: 12px;
+  text-align: center;
 }
+
+.hints-page ul {
+  width: 100%;
+  padding-left: 0;
+}
+
+.hints-page li {
+  list-style-type: none;
+  width: 100%;
+  padding-top: 2px;
+}
+
+.hint-row {
+  list-style-type: none;
+  background-color: #000b29;
+
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  border-radius: 5px;
+  width: 90%;
+  border: 1px solid black;
+  color: #ffffff;
+}
+
 
 .hangman {
   background-color: rgba(172, 220, 240, 0.679);
