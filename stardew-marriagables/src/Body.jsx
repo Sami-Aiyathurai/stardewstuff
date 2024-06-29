@@ -22,7 +22,7 @@ function Body(){
     const [hints, setHints] = useState([]);
 
     function updateHints() {
-        const numHints = guessedNpcs.length;
+        const numHints = (guessedNpcs.length);
         const tempHint = npcToGuess.Hints[numHints];
         console.log("hint: " + tempHint);
         const temp = randomHint(tempHint);
