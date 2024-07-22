@@ -11,9 +11,10 @@ function Hints(props) {
             <div className="hints-page">
                 <h1 className="hint-title">
                     This villager....
+                    {console.log(name)}
                 </h1>
                 <ul>
-                    {hints.map((hint, index) => <li key={index}><HintRow i={index} hint={hint}></HintRow> </li>)}    
+                    {hints.map((hint, index) => <li key={index}><HintRow hint={hint}></HintRow> </li>)}    
                 </ul>
                 
             </div>

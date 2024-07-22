@@ -1,8 +1,252 @@
 [
     {
+        "Name": "Caroline",
+        "Hints": [
+            [false],
+            ["Quartz", "Salmonberry"],
+            ["Journey of the Prairie King: The Motion Picture", "The Brave Little Sapling"],
+            ["Fish Taco", "Green Tea", "Summer Spangle", "Tropical Curry"],
+            ["Pelican Town"],
+            [],
+            ["Winter 7"]
+        ]
+    } ,
+
+    {
+        "Name": "Clint",
+        "Hints": [
+            [false],
+            ["Holly"],
+            [],
+            ["Amethyst", "Aquamarine", "Artichoke Dip", "Emerald", "Fiddlehead Risotto", "Gold Bar", "Iridium Bar", "Jade", "Omni Geode", "Ruby", "Topaz"],
+            ["Pelican Town"],
+            [],
+            ["Winter 26"]
+        ]
+    } ,
+
+    {
+        "Name": "Demetrius",
+        "Hints": [
+            [false],
+            ["Holly"],
+            ["Natural Wonders: Exploring Our Vibrant World", "Wumbus"],
+            ["Bean Hotpot", "Ice Cream", "Rice Pudding", "Strawberry"],
+            ["The Mountain"],
+            [],
+            ["Summer 19"]
+        ]
+    } ,
+    {
+        "Name": "Dwarf",
+        "Hints": [
+            [false],
+            [],
+            ["It Howls in the Rain", "Journey of the Prairie King: The Motion Picture", "Mysterium", "The Brave Little Sapling", "Natural Wonders: Exploring Our Vibrant World", "The Miracle at Coldstar Ranch", "The Zuzu City Express", "Wumbus"],
+            ["Amethyst", "Aquamarine", "Emerald", "Jade", "Lava Eel", "Lemon Stone", "Omni Geodes", "Ruby", "Topaz"],
+            ["The Mines"],
+            [],
+            ["Summer 22"]
+        ]
+    } ,
+
+    {
+        "Name": "Evelyn",
+        "Hints": [
+            [false],
+            ["Clay", "Fried Eel", "Garlic", "Holly", "Maki Roll", "Salmonberry", "Sashimi", "Spice Berry", "Spicy Eel", "Trout Soup"],
+            ["The Miracle at Coldstar Ranch", "The Zuzu City Express"],
+            ["Beet", "Chocolate Cake", "Diamond", "Fairy Rose", "Raisins", "Stuffing", "Tulip"],
+            ["Pelican Town"],
+            [],
+            ["Winter 20"]
+        ]
+    } ,
+    {
+        "Name": "George",
+        "Hints": [
+            [false],
+            ["Clay", "Dandelion", "Holly", "Quartz"],
+            ["The Zuzu City Express"],
+            ["Fried Mushroom", "Leek"],
+            ["Pelican Town"],
+            [],
+            ["Fall 24"]
+        ]
+    } ,
+    {
+        "Name": "Gus",
+        "Hints": [
+            [false],
+            ["Coleslaw", "Holly", "Quartz"],
+            ["The Miracle at Coldstar Ranch", "Wumbus"],
+            ["Diamond", "Escargot", "Fish Taco", "Orange", "Tropical Curry"],
+            ["Pelican Town"],
+            [],
+            ["Summer 8"]
+        ]
+    } ,
+    {
+        "Name": "Jas",
+        "Hints": [
+            [false],
+            ["Clay", "Pina Colada", "Triple Shot Espresso", "Wild Horseradish"],
+            ["Journey of the Prairie King: The Motion Picture", "Natural Wonders: Exploring Our Vibrant World", "The Brave Little Sapling", "Wumbus"],
+            ["Ancient Doll", "Fairy Box", "Fairy Rose", "Pink Cake", "Plum Pudding", "Green Strange Doll", "Yellow Strange Doll"],
+            ["Cindersap Forest"],
+            [],
+            ["Summer 4"]
+        ]
+    } ,
+    {
+        "Name": "Jodi",
+        "Hints": [
+            [false],
+            ["Daffodil", "Dandelion", "Spice Berry"],
+            [ "The Zuzu City Express"],
+            ["Chocolate Cake", "Crispy Bass", "Diamond", "Eggplant Parmesan", "Fried Eel", "Pancakes", "Rhubarb Pie", "Vegetable Medley"],
+            ["Pelican Town"],
+            [],
+            ["Fall 11"]
+        ]
+    } ,
+    {
+        "Name": "Kent",
+        "Hints": [
+            [false],
+            ["Algae Soup", "Holly", "Sashimi", "Tortilla"],
+            [],
+            ["FiddleHead Risotto", "Roasted Hazelnuts"],
+            ["Pelican Town"],
+            [],
+            ["Spring 4"]
+        ]
+    } ,
+    {
+        "Name": "Leo",
+        "Hints": [
+            [false],
+            ["Beer", "Holly", "Hops", "Mead", "Morel", "Oil", "Pale Ale", "Pina Colada", "Triple Shot Espresso", "Unmilled Rice", "Wine"],
+            ["Natural Wonders: Exploring Our Vibrant World"],
+            ["Duck Feather", "Mango", "Ostrich Egg", "Parrot Egg", "Poi"],
+            ["Ginger Island"],
+            [],
+            ["Summer 26"]
+        ]
+    } ,
+    {
+        "Name": "Lewis",
+        "Hints": [
+            [false],
+            ["Quartz", "Holly"],
+            ["Natural Wonders: Exploring Our Vibrant World"],
+            ["Autumn's Bounty", "Glazed Yams", "Green Tea", "Hot Pepper", "Vegetable Medley"],
+            ["Pelican Town"],
+            [],
+            ["Spring 7"]
+        ]
+    } ,
+    {
+        "Name": "Linus",
+        "Hints": [
+            [false],
+            ["Universal"],
+            [],
+            ["Blueberry Tart", "Cactus Fruit", "Coconut", "Dish O' The Sea", "The Alleyway Buffet", "Yam"],
+            ["The Mountain"],
+            [],
+            ["Winter 3"]
+        ]
+    } ,
+    {
+        "Name": "Marnie",
+        "Hints": [
+            [false],
+            ["Clay", "Holly"],
+            ["The Miracle at Coldstar Ranch"],
+            ["Diamond", "Farmer's Lunch", "Pink Cake", "Pumpkin Pie"],
+            ["Cindersap Forest"],
+            [],
+            ["Fall 18"]
+        ]
+    } ,
+    {
+        "Name": "Pam",
+        "Hints": [
+            [false],
+            ["Holly", "Octopus", "Squid"],
+            [],
+            ["Beer", "Cactus Fruit", "Glazed Yams", "Mead", "Pale Ale", "Parsnip", "Parsnip Soup", "Pina Colada"],
+            ["Pelican Town"],
+            [],
+            ["Spring 18"]
+        ]
+    } ,
+    {
+        "Name": "Pierre",
+        "Hints": [
+            [false],
+            ["Corn", "Garlic", "Parsnip Soup", "Tortilla"],
+            ["Wumbus"],
+            ["Fried Calamari", "Price Catalogue"],
+            ["Pelican Town"],
+            [],
+            ["Spring 26"]
+        ]
+    } ,
+    {
+        "Name": "Robin",
+        "Hints": [
+            [false],
+            ["Holly"],
+            ["Journey of the Prairie King: The Motion Picture"],
+            ["Goat Cheese", "Peach", "Spaghetti", "Woody's Secret"],
+            ["The Mountain"],
+            [],
+            ["Fall 21"]
+        ]
+    } ,
+    {
+        "Name": "Sandy",
+        "Hints": [
+            [false],
+            ["Holly"],
+            ["It Howls in the Rain", "Journey of the Prairie King: The Motion Picture", "Mysterium", "The Brave Little Sapling", "Natural Wonders: Exploring Our Vibrant World", "The Miracle at Coldstar Ranch", "The Zuzu City Express", "Wumbus"],
+            ["Crocus", "Daffodil", "Mango Sticky Rice", "Sweet Pea"],
+            ["The Desert"],
+            [],
+            ["Fall 15"]
+        ]
+    } ,
+    {
+        "Name": "Vincent",
+        "Hints": [
+            [false],
+            ["Clay", "Pina Colada", "Triple Shot Espresso", "Wild Horseradish"],
+            ["Journey of the Prairie King: The Motion Picture", "The Brave Little Sapling", "Wumbus"],
+            ["Cranberry Candy", "Frog Egg", "Ginger Ale", "Grape", "Pink Cake", "Snail"],
+            ["Pelican Town"],
+            [],
+            ["Spring 10"]
+        ]
+    } ,
+    {
+        "Name": "Willy",
+        "Hints": [
+            [false],
+            ["Universal"],
+            [],
+            ["Catfish", "Gold Bar", "Diamond", "Iridium Bar", "Jewels Of The Sea", "Mead", "Octopus", "Pumpkin", "Sea Cucumber", "Sturgeon", "The Art O' Crabbing"],
+            ["The Beach"],
+            [],
+            ["Summer 24"]
+        ]
+    } ,
+
+    {
         "Name": "Wizard",
         "Hints": [
-            ["not livable"],
+            [false],
             ["Universal"],
             ["Mysterium"],
             ["Book of Mysteries", "Purple Mushroom", "Solar Essence", "Super Cucumber", "Void Essence"],
@@ -11,38 +255,12 @@
             ["Winter 17"]
         ]
     } ,
-
-    {
-        "Name": "Krobus",
-        "Hints" : [
-            ["livable"],
-            ["Universal"],
-            [],
-            ["Diamond", "Iridium Bar", "Monster Compendium", "Monster Musk", "Pumpkin", "Void Egg", "Void Mayonaise", "Wild Horseradish"],
-            ["Sewer"],
-            [],
-            ["Winter 1"]
-        ]
-    } ,
-
-    {
-        "Name": "Caroline",
-        "Hints": [
-            ["not livable"],
-            ["Universal", "Quartz", "Salmonberry"],
-            ["Journey of the Prairie King: The Motion Picture", "The Brave Little Sapling"],
-            ["Fish Taco", "Green Tea", "Summer Spangle", "Tropical Curry"],
-            ["Pelican Town"],
-            [],
-            ["Winter 7"]
-        ]
-    } ,
     
     {
         "Name": "Abigail",
         "Hints": [
-            ["livable"],
-            ["Universal", "Clay", "Holly"],
+            [true],
+            ["Clay", "Holly"],
             ["Mysterium", "It Howls in the Rain"],
             ["Amethyst", "Banana Pudding", "Blackberry Cobbler", "Chocolate Cake", "Monster Compendium", "Pufferfish", "Pumpkin", "Spicy Eel"],
             ["Pelican Town"],
@@ -54,8 +272,8 @@
     {
         "Name": "Alex",
         "Hints": [
-            ["livable"],
-            ["Universal", "Holly", "Quartz"],
+            [true],
+            ["Holly", "Quartz"],
             ["It Howls in the Rain", "Wumbus"],
             ["Complete Breakfast", "Jack Be Nimble, Jack Be Thick", "Salmon Dinner"],
             ["Pelican Town"],
@@ -67,8 +285,8 @@
     {
         "Name": "Elliott",
         "Hints":[
-            ["livable"],
-            ["Universal", "Amaranth", "Quartz", "Salmonberry", "Sea Cucumber", "Super Cucumber"],
+            [true],
+            ["Amaranth", "Quartz", "Salmonberry", "Sea Cucumber", "Super Cucumber"],
             ["Mysterium"],
             ["Crab Cakes", "Duck Feather", "Lobster", "Pomegranate", "Squid Ink", "Tom Kha Soup"],
             ["The Beach"],
@@ -80,8 +298,8 @@
     {
         "Name": "Emily",
         "Hints":[
-            ["livable"],
-            ["Universal", "Fish Taco", "Maki Roll", "Holly", "Salmon Dinner", "Sashimi"],
+            [true],
+            ["Fish Taco", "Maki Roll", "Holly", "Salmon Dinner", "Sashimi"],
             ["The Miracle at Coldstar Ranch"],
             ["Amethyst", "Aquamarine", "Cloth", "Emerald", "Jade", "Parrot Egg", "Ruby", "Survival Burger", "Topaz", "Wool"],
             ["Pelican Town"],
@@ -93,8 +311,8 @@
     {
         "Name": "Haley",
         "Hints":[
-            ["livable"],
-            ["Universal", "Clay", "Prismatic Shard", "Wild Horseradish"],
+            [true],
+            ["Clay", "Prismatic Shard", "Wild Horseradish"],
             [],
             ["Coconut", "Fruit Salad", "Pink Cake", "Sunflower"],
             ["Pelican Town"],
@@ -106,8 +324,8 @@
     {
         "Name": "Harvey",
         "Hints": [
-            ["livable"],
-            ["Universal", "Coral", "Nautilus Shell", "Rainbow Shell", "Salmonberry", "Spice Berry"],
+            [true],
+            ["Coral", "Nautilus Shell", "Rainbow Shell", "Salmonberry", "Spice Berry"],
             ["The Miracle at Coldstar Ranch", "The Zuzu City Express"],
             ["Coffee", "Pickles", "Super Meal", "Truffle Oil", "Wine"],
             ["Pelican Town"],
@@ -117,10 +335,23 @@
     } ,
 
     {
+        "Name": "Krobus",
+        "Hints" : [
+            [true],
+            ["Universal"],
+            [],
+            ["Diamond", "Iridium Bar", "Monster Compendium", "Monster Musk", "Pumpkin", "Void Egg", "Void Mayonaise", "Wild Horseradish"],
+            ["Sewer"],
+            [],
+            ["Winter 1"]
+        ]
+    } ,
+
+    {
         "Name": "Leah",
         "Hints": [
-            ["livable"],
-            ["Universal", "Bread", "Hashbrowns", "Pancakes", "Pizza", "Void Egg"],
+            [true],
+            ["Bread", "Hashbrowns", "Pancakes", "Pizza", "Void Egg"],
             ["Mysterium"],
             ["Goat Cheese", "Poppyseed Muffin", "Salad", "Stir Fry", "Truffle", "Vegetable Medley", "Wine"],
             ["Cindersap Forest"],
@@ -132,8 +363,8 @@
     {
         "Name": "Maru",
         "Hints": [
-            ["livable"],
-            ["Universal", "Holly", "Honey", "Pickles", "Snow Yam", "Truffle"],
+            [true],
+            ["Holly", "Honey", "Pickles", "Snow Yam", "Truffle"],
             ["Natural Wonders: Exploring Our Vibrant World", "Wumbus"],
             ["Battery Pack", "Cauliflower", "Cheese Cauliflower", "Diamond", "Dwarf Gadget", "Gold Bar", "Iridium Bar", "Miner's Treat", "Pepper Poppers", "Radioactive Bar", "Rhubarb Pie", "Strawberry"],
             ["The Mountain"],
@@ -145,8 +376,8 @@
     {
         "Name": "Penny",
         "Hints": [
-            ["livable"],
-            ["Universal", "Beer", "Grape", "Holly", "Hops", "Mead", "Pale Ale", "Pina Colada", "Rabbit's Foot", "Wine"],
+            [true],
+            ["Beer", "Grape", "Holly", "Hops", "Mead", "Pale Ale", "Pina Colada", "Rabbit's Foot", "Wine"],
             ["The Brave Little Sapling"],
             ["Diamond", "Emerald", "Melon", "Poppy", "Poppyseed Muffin", "Red Plate", "Roots Platter", "Sandfish", "Tom Kha Soup"],
             ["Pelican Town"],
@@ -158,8 +389,8 @@
     {
         "Name": "Sam",
         "Hints": [
-            ["livable"],
-            ["Universal", "Bone Fragment", "Cinder Shard", "Coal", "Copper Bar", "Duck Mayonaise", "Gold Bar", "Gold Ore", "Iridium Bar", "Iridium Ore", "Iron Bar", "Mayonaise", "Pickles", "Refined Quartz"],
+            [true],
+            ["Bone Fragment", "Cinder Shard", "Coal", "Copper Bar", "Duck Mayonaise", "Gold Bar", "Gold Ore", "Iridium Bar", "Iridium Ore", "Iron Bar", "Mayonaise", "Pickles", "Refined Quartz"],
             ["Wumbus"],
             ["Cactus Fruit", "Maple Bar", "Pizza", "Tigerseye"],
             ["Pelican Town"],
@@ -171,8 +402,8 @@
     {
         "Name": "Sebastian",
         "Hints": [
-            ["livable"],
-            ["Universal", "Clay", "Complete Breakfast", "Farmer's Lunch", "Omelet", "Pina Colada"],
+            [true],
+            ["Clay", "Complete Breakfast", "Farmer's Lunch", "Omelet", "Pina Colada"],
             ["It Howls in the Rain", "Mysterium"],
             ["Frog Eye", "Frozen Tear", "Obsidian", "Pumpkin Soup", "Sashimi", "Void Egg"],
             ["The Mountain"],
@@ -184,8 +415,8 @@
     {
         "Name": "Shane",
         "Hints":[
-            ["livable"],
-            ["Universal", "Pickles", "Quartz"],
+            [true],
+            ["Pickles", "Quartz"],
             ["It Howls in the Rain", "Wumbus"],
             ["Beer", "Hot Pepper", "Pepper Poppers", "Pizza"],
             ["Cindersap Forest"],

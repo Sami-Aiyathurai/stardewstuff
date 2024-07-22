@@ -13,7 +13,7 @@ function Body(){
 
     const [npcToGuess, setNpcToGuess] = useState(() => {
         return villagers[Math.floor(Math.random() * names.length)]
-
+        //return villagers[1];
     })
 
     const [guessedNpcs, setGuessedNpcs] = useState([]);
@@ -23,10 +23,50 @@ function Body(){
 
     function updateHints() {
         const numHints = (guessedNpcs.length);
-        const tempHint = npcToGuess.Hints[numHints];
-        console.log("hint: " + tempHint);
+        var tempHint = npcToGuess.Hints[numHints];
+        var index;
+        if (numHints == 4) {
+            if (npcToGuess.Name == "Haley" || npcToGuess.Name == "Penny") {
+                tempHint = npcToGuess.Hints[5];
+                index = 5;
+            } else {
+                tempHint = npcToGuess.Hints[4];
+                index = 4;
+            }
+        } else if (numHints == 5) {
+            tempHint = npcToGuess.Hints[6];
+            index = 6;
+        } else {
+            index = numHints;
+        }
         const temp = randomHint(tempHint);
-        setHints(h => [...h, temp]);
+        const full = fullHint(temp, index);
+        setHints(h => [...h, full]);
+    }
+
+    function fullHint(hint, index){
+        const hintPrompt = ["is ","hates ", "loves the movie ", "loves recieving ","lives in ", "universal loves exceptions ", "birthday "];
+        var full;
+        if (index == 0) {
+            if (hint) {
+                full = "can move in with you";
+            } else {
+                full = "cannot move in with you";
+            }
+        } else if (index == 1) {
+            if (hint === "Universal") {
+                full = "only hates universally hated gifts";
+            } else {
+                full = hintPrompt[index] + hint;
+            }
+        } else if (index == 5) {
+            full = "hates " + hint + " unlike most villagers";
+        } else if(index == 6) {
+            full = "was born on " + hint;
+        } else {
+            full = hintPrompt[index] + hint;
+        }
+        return full;
     }
 
     function randomHint(hints) {

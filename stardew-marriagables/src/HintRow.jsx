@@ -6,7 +6,7 @@ function HintRow(props) {
     const num = props.i;
     return(
         <div className="hint-row">
-            {hintPrompt[num]} {props.hint} 
+            {props.hint} 
         </div>            
     )
 
