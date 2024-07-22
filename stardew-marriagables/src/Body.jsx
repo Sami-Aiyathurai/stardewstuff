@@ -10,32 +10,41 @@ function Body(){
     const names = villagers.map(villager => {
         return villager.Name;
     })
-
-    const [npcToGuess, setNpcToGuess] = useState(() => {
-        return villagers[Math.floor(Math.random() * names.length)]
-        //return villagers[1];
-    })
-
-    const [guessedNpcs, setGuessedNpcs] = useState([]);
+    
+    const [guessedNpcs, setGuessedNpcs] = useState(["Placeholder"]);
     const [isWinner, setIsWinner] = useState(false);
     const isLoser = (guessedNpcs.length >= 6);
     const [hints, setHints] = useState([]);
 
+    const [npcToGuess, setNpcToGuess] = useState(() => {
+        const villager = villagers[Math.floor(Math.random() * names.length)];
+        var hint;
+        if (villager.Hints[0][0]) {
+            hint = "can move in with you";
+        } else {
+            hint = "cannot move in with you";
+        }
+        setHints(h => [hint])
+        return villager;
+        //return villagers[1];
+    })
+
     function updateHints() {
         const numHints = (guessedNpcs.length);
         var tempHint = npcToGuess.Hints[numHints];
+        console.log(tempHint)
         var index;
-        if (numHints == 4) {
+        if (numHints == 3) {
             if (npcToGuess.Name == "Haley" || npcToGuess.Name == "Penny") {
-                tempHint = npcToGuess.Hints[5];
-                index = 5;
-            } else {
                 tempHint = npcToGuess.Hints[4];
                 index = 4;
+            } else {
+                tempHint = npcToGuess.Hints[3];
+                index = 3;
             }
-        } else if (numHints == 5) {
-            tempHint = npcToGuess.Hints[6];
-            index = 6;
+        } else if (numHints == 4) {
+            tempHint = npcToGuess.Hints[5];
+            index = 5;
         } else {
             index = numHints;
         }
@@ -45,23 +54,17 @@ function Body(){
     }
 
     function fullHint(hint, index){
-        const hintPrompt = ["is ","hates ", "loves the movie ", "loves recieving ","lives in ", "universal loves exceptions ", "birthday "];
+        const hintPrompt = ["is ", "loves the movie ", "loves recieving ","lives in ", "universal loves exceptions ", "birthday "];
         var full;
-        if (index == 0) {
-            if (hint) {
-                full = "can move in with you";
-            } else {
-                full = "cannot move in with you";
-            }
-        } else if (index == 1) {
-            if (hint === "Universal") {
-                full = "only hates universally hated gifts";
+        if (index == 1) {
+            if (hint === "None") {
+                full = "does not love any movies"
             } else {
                 full = hintPrompt[index] + hint;
             }
-        } else if (index == 5) {
+        } else if (index == 4) {
             full = "hates " + hint + " unlike most villagers";
-        } else if(index == 6) {
+        } else if(index == 5) {
             full = "was born on " + hint;
         } else {
             full = hintPrompt[index] + hint;
@@ -83,7 +86,9 @@ function Body(){
             }
 
             setGuessedNpcs(currentNPCS => [... currentNPCS, npcName])
-            updateHints()
+            if (guessedNpcs.length < 5) {
+                updateHints()
+            }
         }, [guessedNpcs]
     )
 
