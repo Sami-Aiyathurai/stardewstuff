@@ -97,7 +97,7 @@ function Body(){
             
             <Intro isWinner={isWinner} isLoser={isLoser}></Intro>
             <div className='game-screen'>
-                <HangmanDrawingPlaceHolder numGuesses = {guessedNpcs.length}></HangmanDrawingPlaceHolder>
+                <HangmanDrawingPlaceHolder numGuesses = {guessedNpcs.length - 1}></HangmanDrawingPlaceHolder>
                 <Hints toGuess = {npcToGuess} hintList = {hints}></Hints>
             </div>
             <Keyboard disable={isLoser || isWinner} names={names} inactive={guessedNpcs} addGuess={addGuessNPC}></Keyboard>

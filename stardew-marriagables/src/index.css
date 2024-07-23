@@ -25,6 +25,10 @@ font-family: 'Papyrus';
 font-size: 2em;
 }
 
+.header h4 {
+  margin: 10px;
+}
+
 footer{
   padding: 10px;
   background-color: rgb(0, 71, 177);
@@ -48,30 +52,27 @@ footer{
 
 .card{
   position: relative;
-  background-color: rgba(172, 220, 240, 0.679);
-  border: 12px solid transparent;
-  border-image: url(assets/menu_border.png) 15 stretch;
-  border-radius: 12px;
+  background-color: rgba(153, 224, 255, 0.679);
   margin: 10px;
   text-align: center;
   max-width: 350px;
   display: inline-block;
+  box-shadow: 10px 5px 5px rgba(24, 20, 43, 0.332);
+}
+
+.card:hover{
+  background-color: rgba(185, 234, 255, 0.679);
+  border-radius: 15px;
+  border: #000b29;
 }
 
 .inactive-card{
   position: relative;
-  background-color: rgba(247, 247, 247, 0.679);
-  border: 12px solid transparent;
-  border-image: url(assets/menu_border.png) 15 stretch;
-  border-radius: 12px;
+  background-color: rgba(122, 149, 173, 0.679);
   margin: 10px;
   text-align: center;
   max-width: 350px;
   display: inline-block;
-}
-
-.npc-display{
-  margin: 3px;
 }
 
 .title{
@@ -82,59 +83,9 @@ footer{
   font-weight: normal;
 }
 .photo-display{
-  margin: 10px;
-  font-weight: normal;
-}
-
-.button-70 {
-  background-image: linear-gradient(#0dccea, #0d70ea);
-  border: 0;
-  border-radius: 4px;
-  box-shadow: rgba(0, 0, 0, .3) 0 5px 15px;
-  box-sizing: border-box;
-  color: #fff;
-  cursor: pointer;
-  font-family: Montserrat,sans-serif;
-  font-size: .9em;
-  margin: 5px;
-  padding: 10px 15px;
-  text-align: center;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-}
-
-.button-70:after {
-  background-clip: padding-box;
-  background-color: #1CB0F6;
-  border: solid transparent;
-  border-width: 0 0 4px;
-  bottom: -4px;
-  content: "";
-  left: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
-  z-index: -1;
-}
-
-.button-70:main,
-.button-70:focus {
-  user-select: auto;
-}
-
-.button-70:hover:not(:disabled) {
-  filter: brightness(1.1);
-  -webkit-filter: brightness(1.1);
-}
-
-.button-70:disabled {
-  cursor: auto;
-}
-
-.button-70:active {
-  border-width: 4px 0 0;
-  background: none;
+  margin: 3px;
+  font-weight: lighter;
+  font-size: 16px;
 }
 
 .game-screen {
@@ -189,4 +140,9 @@ footer{
   padding-top: 3%;
   padding-bottom: 3%;
   border-radius: 12px;
+}
+
+button {
+  background: transparent;
+  border: none;
 }

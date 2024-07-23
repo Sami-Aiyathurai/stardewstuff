@@ -10,7 +10,7 @@ function Intro(props) {
             </h2>
             <p>
                 Welcome to a mix between guess who and hangman for stardew NPCs. 
-                You have six guesses and for every incorrect guess you will be given a clue with information relevent to gifting this npc. You can refresh to restart(with a different npc) or to simply try again. Additionally, all the bachelors/bachelorettes are "livable" and Krobus counts as "livable."
+                You have six guesses and for every incorrect guess you will be given a clue with information relevent to gifting this npc. You can refresh to restart(with a different npc) or to simply try again. 
                 Good Luck!. 
             </p>
         </div>
